@@ -58,7 +58,6 @@ Make sure you are in the root folder of the repository where `schema.sql` and `i
 |-----------------|------------------------------------------------------------------------|
 | **CMD / Git Bash**  | `mysql -u your_username -p < schema.sql`                                |
 | **PowerShell**      | `Get-Content schema.sql | mysql -u your_username -p`                     |
-| **(Alternative, works in all)** | `mysql -u your_username -p < schema.sql`                                |
 
 #### Insert Sample Data
 
@@ -110,9 +109,6 @@ DB_NAME=school_management
 PORT=3000
 ```
 
-## License
-
-This repository currently does not specify a license.
 
 ---
 *For any issues or contributions, please open an issue or pull request on the [project repository](https://github.com/uz-313/school-management-system_APIs).*
