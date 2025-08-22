@@ -1,8 +1,8 @@
 -- Create a database
-CREATE DATABASE IF NOT EXISTS school_management;
+-- CREATE DATABASE IF NOT EXISTS school_management;
 
 -- Use the created database
-USE school_management;
+-- USE school_management;
 
 -- Create schools table
 CREATE TABLE IF NOT EXISTS schools (
