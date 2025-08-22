@@ -56,8 +56,8 @@ Make sure you are in the root folder of the repository where `schema.sql` and `i
 
 | Shell           | Command                                                                 |
 |-----------------|------------------------------------------------------------------------|
-| **CMD / Git Bash**  | `mysql -u your_username -p < schema.sql`                                |
-| **PowerShell**      | `Get-Content schema.sql | mysql -u your_username -p`                     |
+| **CMD / Git Bash**  | `mysql -u your_username -p < schema.sql`                          |
+| **PowerShell**      | Get-Content schema.sql | mysql -u your_username -p                |
 
 #### Insert Sample Data
 
