@@ -57,15 +57,12 @@ Make sure you are in the root folder of the repository where `schema.sql` and `i
 | Shell           | Command                                                                 |
 |-----------------|------------------------------------------------------------------------|
 | **CMD / Git Bash**  | `mysql -u your_username -p < schema.sql`                          |
-| **PowerShell**      | Get-Content schema.sql | mysql -u your_username -p                |
 
 #### Insert Sample Data
 
 | Shell           | Command                                                                 |
 |-----------------|------------------------------------------------------------------------|
 | **CMD / Git Bash**  | `mysql -u your_username -p school_management < init/schools_data.sql`    |
-| **PowerShell**      | `Get-Content init/schools_data.sql | mysql -u your_username -p school_management` |
-| **(Alternative, works in all)** | `mysql -u your_username -p school_management < init/schools_data.sql`    |
 
 **Note:**  
 - Replace `your_username` with your actual MySQL username.
